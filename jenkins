@@ -1,0 +1,10 @@
+# Steps to install Jenkins.
+
+# Jdk has to be installed.
+yum install wget -y
+mkdir /opt/jenkins
+yum install https://pkg.jenkins.io/redhat-stable/jenkins-2.138.1-1.1.noarch.rpm
+
+
+systemctl enable jenkins
+systemctl start jenkins
