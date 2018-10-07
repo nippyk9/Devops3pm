@@ -3,7 +3,7 @@
 # Jdk has to be installed.
 yum install wget -y
 mkdir /opt/jenkins
-yum install https://pkg.jenkins.io/redhat-stable/jenkins-2.138.1-1.1.noarch.rpm
+yum install https://pkg.jenkins.io/redhat-stable/jenkins-2.138.1-1.1.noarch.rpm -y
 
 
 systemctl enable jenkins
